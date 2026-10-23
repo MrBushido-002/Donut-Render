@@ -3,8 +3,8 @@
 #include <string.h>
 #include <unistd.h>
 
-#define WIDTH 80
-#define HEIGHT 22
+#define WIDTH 160
+#define HEIGHT 44
 #define TWO_PI 6.2831853f
 
 //define a 3D vector struct
@@ -32,7 +32,7 @@ int main(void){
     const float TUBE_RADIUS   = 1.0f;   // thickness of the donut's tube
     const float RING_RADIUS   = 2.0f;   // distance from donut center to tube center
     const float CAMERA_DIST   = 7.0f;   // how far the donut is from the viewer
-    const float SCALE         = 18.0f;  // zoom (bigger = bigger donut on screen)
+    const float SCALE         = 22.0f;  // zoom (bigger = bigger donut on screen)
 
     // Characters from darkest to brightest
     const char shades[] = ".,-~:;=!*#$@";
